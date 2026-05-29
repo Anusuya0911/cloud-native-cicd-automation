@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Anusuya0911/cloud-native-cicd-automation.gi'
+                git 'https://github.com/Anusuya0911/cloud-native-cicd-automation.git'
             }
         }
 
